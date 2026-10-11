@@ -72,3 +72,7 @@ The model identifies most customers who stay, but misses many customers who leav
 In the notebook source, the cleaning section drops `AgeGroup` and `CreditTier`, but the preceding cells do not create those columns. A fresh run from the top may stop with a missing-column error at those statements. Remove the two drop statements or add the intended feature-creation steps before running all cells. Some saved notebook outputs show those columns, so the saved outputs may not reflect the currently visible source code.
 
 This is a notebook-based analysis and baseline model; it does not include a saved model artifact, a prediction API, or deployment code.
+## Author
+
+Aditya Mane  
+[GitHub profile](https://github.com/AdityaMane28)
